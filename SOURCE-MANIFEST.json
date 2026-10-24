@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "name": "@dsh-external/dsh-ultra-memory",
+    "version": "0.2.0"
+  },
+  "buildEntry": "src/memory-plugin.ts",
+  "coreSources": [
+    {
+      "path": "src/assist.ts",
+      "sha256": "91627ee38fbd81f02a3004dd32c1edf4e2f8593c0a912275f6b6f64cd492d0c3"
+    },
+    {
+      "path": "src/capture-memory.ts",
+      "sha256": "bfb3f5646dd45edd219e604f1fc8d7ec3fb8848db060b45b27f4d4bd188a80f9"
+    },
+    {
+      "path": "src/client/index.ts",
+      "sha256": "72cc20fee1420839a231975ebb7cd22da1e188350fc4fb5fe97e17c922900f2e"
+    },
+    {
+      "path": "src/client/model-pool.ts",
+      "sha256": "96284c6db4d9d0690d7f4f8934ca5dea2730fd0e8b0d3967c50de60231f39137"
+    },
+    {
+      "path": "src/collaboration-host.ts",
+      "sha256": "c12f9286c56c4fc71a68c47d4bc239219a52bb6bcbbcda8085f0327f1713368b"
+    },
+    {
+      "path": "src/collaboration.ts",
+      "sha256": "0a7b78f1b27ebf3e00ba365a083b906b82b0ff50836ffaee7e23b2248a28e306"
+    },
+    {
+      "path": "src/context-archive-store.ts",
+      "sha256": "0cc309e0b08a9541278fe7865aa859f5ac28622b3686ce389d25feb2f147a870"
+    },
+    {
+      "path": "src/context-archive.ts",
+      "sha256": "f3370a6b36c30f763ffbe72a628b9b6d4fb8d53778a7cebc580da5f743b0ab0f"
+    },
+    {
+      "path": "src/context-memory.ts",
+      "sha256": "5866580573903d02d1cebfeedc698ff1a1b2bf491c0031f87049562391c2dc97"
+    },
+    {
+      "path": "src/coordination.ts",
+      "sha256": "740812651dd87d4f21e2637d2e428a85e1fd177284297d52b91b583478f00b75"
+    },
+    {
+      "path": "src/decision-contract.ts",
+      "sha256": "750b699ca90b2ea7752eaf668551f3e721c96fd03a8a0b589b6eeab0884b6eef"
+    },
+    {
+      "path": "src/decision-governance.ts",
+      "sha256": "5780a24a37d61098cc3ea75668eccb29b0d8c0126c3d2dd5ba855a6ae2a97d87"
+    },
+    {
+      "path": "src/decision-plugin.ts",
+      "sha256": "fdc345029c0c03a5a976316f73610f749b1346720e6d114972e456837f29245a"
+    },
+    {
+      "path": "src/evidence-support.ts",
+      "sha256": "b2e555ce1f52d2ac5ae4dd6cea321ea79731052431a3216d47fe37b625554be9"
+    },
+    {
+      "path": "src/evidence.ts",
+      "sha256": "87ac63d664a282dd0f9c9a53a7124e5b1753d8a3b0f76d04a19085b34600a1bf"
+    },
+    {
+      "path": "src/index.ts",
+      "sha256": "b2c4bbcee126f8512c260931cb49f33f28876f2ad4a4c5565b98b9a62aaaa2c8"
+    },
+    {
+      "path": "src/jev.ts",
+      "sha256": "fc9f11ae501841de23777cfc4dd190a4149a511a44355e75937ebe61140f2ca3"
+    },
+    {
+      "path": "src/knowledge-host.ts",
+      "sha256": "b423139161310754c486fc8c2d581f73476f817f53cf771f81710f937ebeb346"
+    },
+    {
+      "path": "src/knowledge-integration.ts",
+      "sha256": "57c8dd09f56f7241ca0c273b631476e86d752ce7e6923e10d5eb9260584908fe"
+    },
+    {
+      "path": "src/knowledge-settings.ts",
+      "sha256": "556da6822ea3424bef354715a485be17ac62fd5d10d9322bf9f5083fa27e7254"
+    },
+    {
+      "path": "src/knowledge-store.ts",
+      "sha256": "ffa9466d63fce7d61e416e7f51d7b45be2b0e1cac300896805b5989e60b705eb"
+    },
+    {
+      "path": "src/memory-host.ts",
+      "sha256": "80e0bfb25558ad338a265f49e2f70273edc05b504afec38b8953cad7680da1e5"
+    },
+    {
+      "path": "src/memory-plugin.ts",
+      "sha256": "b53a675ac2b6801185965a13b390f124abcc18cc04f1b90b3a631fb763a088c8"
+    },
+    {
+      "path": "src/memory-tools.ts",
+      "sha256": "6ba167576a4ea16061faca2d9a7ee2fdeca9208de86815859e4577c2646bb854"
+    },
+    {
+      "path": "src/model-pool-audit.ts",
+      "sha256": "2e772f357a6c716e063fe001df3759f0d55a0b38b4ebcb712f5a3c083aea9da3"
+    },
+    {
+      "path": "src/model-pool-settings.ts",
+      "sha256": "d26dff5c1e23fd12cab76c8553451da9b5e439d019bb2f837d0117a0fcfb66ed"
+    },
+    {
+      "path": "src/model-pool.ts",
+      "sha256": "aaac3389b4639547ef9473bbcd9cb97ee1a41a93795fa156e8a00a3f9f314559"
+    },
+    {
+      "path": "src/orchestrator.ts",
+      "sha256": "0e07140658fbc2b3605cef4b1d9d3ed81a833f23457aebf8f7298349b57db6d4"
+    },
+    {
+      "path": "src/report-memory.ts",
+      "sha256": "f5a151de02699f354756ef5c108197506f7d24b697940a8c47e0e77606de6b67"
+    },
+    {
+      "path": "src/runtime.ts",
+      "sha256": "201b53eef1ba2e96be52751b80484828eb77d7b432fb9f5746feafc82b4f0005"
+    },
+    {
+      "path": "src/task-memory-context.ts",
+      "sha256": "bfff4a8e28e2abb18723cc73332515d414bd18dea17da7e12e7da72e8e4243b0"
+    },
+    {
+      "path": "src/task-memory-settings.ts",
+      "sha256": "8c11d92568832bc9e111b4ba2feadf2c1c8d8fd4765d9db6252bd1870f5f6ba3"
+    },
+    {
+      "path": "src/task-memory.ts",
+      "sha256": "520ceb8641f3a091feedcd854ea6b032b83a3ec5e57cda387ec4a1b250c56550"
+    },
+    {
+      "path": "src/ultra.ts",
+      "sha256": "1dbcc68f4d0eb354e68458e00392ac7cfdb4e7721ba13d5fb4c3d7e69f326fb0"
+    }
+  ],
+  "runtime": {
+    "entry": "lib/index.js",
+    "sha256": "1e9e82aeac5e529de044729a862b695d17ca587423a3986d1e75f3c47fbc89db"
+  },
+  "externalImports": [
+    "@deepseek-ai/dsh-agent",
+    "@deepseek-ai/dsh-llm",
+    "@deepseek-ai/dsh-scope",
+    "@deepseek-ai/dsh-session",
+    "@deepseek-ai/dsh-tools",
+    "@deepseek-ai/schemastery",
+    "node:crypto",
+    "node:fs",
+    "node:path"
+  ]
+}

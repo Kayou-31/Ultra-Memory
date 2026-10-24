@@ -1,0 +1,20 @@
+name: verify
+on: [push, pull_request]
+jobs:
+  memory:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.23.3'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run build
+      - run: npm run typecheck
+      - run: npm test
+        env:
+          DSH_ULTRA_TEST_SDK: ${{ github.workspace }}/node_modules
